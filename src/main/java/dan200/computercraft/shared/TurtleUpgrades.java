@@ -115,6 +115,14 @@ public final class TurtleUpgrades
                 ComputerCraft.TurtleUpgrades.diamondShovel,
                 ComputerCraft.TurtleUpgrades.diamondHoe,
                 ComputerCraft.TurtleUpgrades.craftingTable,
+
+                ComputerCraft.TurtleUpgrades.ironPickaxe,
+                ComputerCraft.TurtleUpgrades.ironAxe,
+                ComputerCraft.TurtleUpgrades.ironSword,
+                ComputerCraft.TurtleUpgrades.ironShovel,
+                ComputerCraft.TurtleUpgrades.ironHoe,
+
+
             };
         }
 

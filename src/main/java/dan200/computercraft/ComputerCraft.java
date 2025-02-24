@@ -93,6 +93,12 @@ public final class ComputerCraft
         public static TurtleTool diamondPickaxe;
         public static TurtleAxe diamondAxe;
         public static TurtleHoe diamondHoe;
+
+        public static TurtleSword ironSword;
+        public static TurtleShovel ironShovel;
+        public static TurtleTool ironPickaxe;
+        public static TurtleAxe ironAxe;
+        public static TurtleHoe ironHoe;
     }
 
     public static final class PocketUpgrades

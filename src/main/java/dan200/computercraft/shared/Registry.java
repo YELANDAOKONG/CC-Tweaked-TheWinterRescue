@@ -275,17 +275,32 @@ public final class Registry
         ComputerCraft.TurtleUpgrades.diamondSword = new TurtleSword( new ResourceLocation( "minecraft", "diamond_sword" ), Items.DIAMOND_SWORD );
         ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.diamondSword );
 
+        ComputerCraft.TurtleUpgrades.ironSword = new TurtleSword( new ResourceLocation( "minecraft", "iron_sword" ), Items.IRON_SWORD );
+        ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.ironSword );
+
         ComputerCraft.TurtleUpgrades.diamondShovel = new TurtleShovel( new ResourceLocation( "minecraft", "diamond_shovel" ), Items.DIAMOND_SHOVEL );
         ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.diamondShovel );
+
+        ComputerCraft.TurtleUpgrades.ironShovel = new TurtleShovel( new ResourceLocation( "minecraft", "iron_shovel" ), Items.IRON_SHOVEL );
+        ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.ironShovel );
 
         ComputerCraft.TurtleUpgrades.diamondPickaxe = new TurtleTool( new ResourceLocation( "minecraft", "diamond_pickaxe" ), Items.DIAMOND_PICKAXE );
         ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.diamondPickaxe );
 
+        ComputerCraft.TurtleUpgrades.ironPickaxe = new TurtleTool( new ResourceLocation( "minecraft", "iron_pickaxe" ), Items.IRON_PICKAXE );
+        ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.ironPickaxe );
+
         ComputerCraft.TurtleUpgrades.diamondAxe = new TurtleAxe( new ResourceLocation( "minecraft", "diamond_axe" ), Items.DIAMOND_AXE );
         ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.diamondAxe );
 
+        ComputerCraft.TurtleUpgrades.ironAxe = new TurtleAxe( new ResourceLocation( "minecraft", "iron_axe" ), Items.IRON_AXE );
+        ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.ironAxe );
+
         ComputerCraft.TurtleUpgrades.diamondHoe = new TurtleHoe( new ResourceLocation( "minecraft", "diamond_hoe" ), Items.DIAMOND_HOE );
         ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.diamondHoe );
+
+        ComputerCraft.TurtleUpgrades.ironHoe = new TurtleHoe( new ResourceLocation( "minecraft", "iron_hoe" ), Items.IRON_HOE );
+        ComputerCraftAPI.registerTurtleUpgrade( ComputerCraft.TurtleUpgrades.ironHoe );
     }
 
     private static void registerPocketUpgrades()
